@@ -1,0 +1,24 @@
+<div class="gallery">
+       <img src="images/centralLib.jpg" id="ctlib">
+       <img src="images/footballMu.jpg" id="ctlib">
+       <img src="images/hilton.jpg" id="ctlib">
+       <img src="images/warMu.jpg" id="ctlib">
+       <img src="images/TownHall.jpg" id="ctlib">       
+    </div>
+
+css
+gallery{
+    margin: 10px 50px;
+}
+
+gallery img {
+    transition:1s;
+    padding:15px;
+    width:200px;        
+}
+
+gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    
+}
